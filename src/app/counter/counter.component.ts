@@ -26,7 +26,7 @@ export class CounterComponent implements OnInit {
     this.zone.runOutsideAngular(() => {
       setTimeout(() => {
         console.log('Timer expired');
-      }, 4000);
+      }, 5000);
     });
   }
   onDecrement() {
